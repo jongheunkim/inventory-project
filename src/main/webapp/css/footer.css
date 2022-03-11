@@ -1,0 +1,29 @@
+
+.div1_footer{
+	width:300px;
+	height:230px;
+	border-right:1px solid #ccc;
+	float:left;
+	margin-left:50px;
+	padding-left:20px;
+}
+.div2_footer{
+	width:400px;
+	height:230px;
+	border-right:1px solid #ccc;
+	float:left;
+	padding-left:20px;
+}
+.div3_footer{
+	width:300px;
+	height:230px;
+	float:left;
+	padding-left:20px;
+}
+.table_footer{
+	border-collapse:collapse;
+}
+.th_footer{
+	border:1px solid #ccc;
+	width:130px;
+}

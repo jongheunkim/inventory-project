@@ -1,0 +1,65 @@
+.join_form { border:1px solid #bdbdbd; height:21px; line-height:20px; padding-left:3px; }
+
+.joinform{width: 100%;display: inline-block; margin-top: 20px;}
+.joinform .title{font-size: 18px;font-weight:700; color:#000;}
+.joinform .title span{float:right;font-size: 12px;font-weight:400;}
+.joinform .box{width: calc(100% - 40px);display: inline-block;border:1px solid #d8d8d8;padding: 20px; border-radius: 5px; margin-top: 10px;}
+.joinform table {border: 0px; width: 100%; border-spacing: 0px 0px;border-top:1px solid #e6e6e6; margin-top: 10px;}
+.joinform table tr th,.joinform table tr td{font-size: 13px;font-weight:400;border-bottom:1px solid #e6e6e6;padding:10px 10px;text-align:left;line-height: 20px;}
+.joinform table tr td{font-size: 11px;}
+.joinform .mody table{border-top:2px solid #000;}
+.joinform .stitle{margin-top: 30px; font-size: 18px;color:#404040;font-weight:600;}
+.joinform .stitle span{font-weight:400;font-size: 12px;}
+.joinform .stitle span em{color: #f00;font-weight:600; }
+
+.arrow_box {
+    text-indent:30px;
+	position: absolute;
+	background: #ffffff url(/static/img/arrow.png) no-repeat left 10px center;
+	border: 1px solid #696969;
+    padding: 10px 20px;
+    margin-top: 10px;
+    margin-left: 5px;
+    border-radius: 5px;
+    color: #4e4e4e;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 400;
+    box-shadow: 2px 2px 3px 1px rgb(192, 192, 192);
+    z-index:999;
+}
+.arrow_box:after, .arrow_box:before {
+	bottom: 100%;
+	left: 20px;
+	border: solid transparent;
+	content: "";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+.arrow_box:after {
+	border-color: rgba(255, 255, 255, 0);
+	border-bottom-color: #ffffff;
+	border-width: 8px;
+	margin-left: -8px;
+}
+.arrow_box:before {
+	border-color: rgba(105, 105, 105, 0);
+	border-bottom-color: #696969;
+	border-width: 9px;
+	margin-left: -9px;
+}
+#service.arrow_box{
+    margin-left:-15px;
+
+}
+.wp_00	{width: 100% !important; }
+.wp_20	{width: 20% !important; }
+.mt005	{margin-top:5px !important}
+
+.di_no{	display: none;}
+.di_bi{	display: block;}
+.w_200	{width:200px !important;}
+ipt {padding: 5px 5px;border:1px solid #aaa; border-radius: 2px;}

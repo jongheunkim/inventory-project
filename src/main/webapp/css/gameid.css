@@ -1,0 +1,36 @@
+.format {
+	border:1px solid black;
+	margin:30px;
+	padding:30px;
+	margin-left:200px;
+	background-color:#dcdcdc;
+	width:800px;
+	height:150px;
+	display:flex;
+	justify-content: center;
+}
+
+.table{
+	border: 1px solid black;
+	display:flex;
+	justify-content: center;
+	width:600px;
+	height:500px;
+	padding:20px;
+	margin-top:20px;
+}
+.type{
+	font-size:15px;
+	
+	
+}
+.button{
+	display:grid;
+	grid-template-columns: 35% 30% 35%;
+}
+
+.button__submit{
+	display:flex;
+	justify-content: space-around;
+	text-align:center;
+}		

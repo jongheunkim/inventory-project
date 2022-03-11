@@ -1,0 +1,40 @@
+body{
+	font-size:12px;
+	font-family:'맑은 고딕','arial';
+	padding:0px;
+}
+header{
+	width:100%;
+	height:40px;
+	margin-bottom:-20px;
+}
+nav{
+	width:100%;
+	height:150px;
+}
+section{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display:flex;
+}
+aside{
+	width:15%;
+	height:350px;
+	float:right;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+article{
+	width:85%;
+	height:100%;
+	float:left;
+}
+footer{
+	width:85%;
+	height:250px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:0px;
+	border-top:1px solid #ccc;
+}

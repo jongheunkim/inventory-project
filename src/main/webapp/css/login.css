@@ -1,0 +1,91 @@
+body{
+	font-size:12px;
+	font-family:'맑은 고딕','arial';
+	padding:0px;
+}
+header{
+	width:100%;
+	height:40px;
+	margin-bottom:-20px;
+}
+nav{
+	width:100%;
+	height:150px;
+}
+section{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display:flex;
+	margin-bottom: 70px;
+}
+aside{
+	width:15%;
+	height:100%;
+	float:right;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+article{
+	width:85%;
+	height:100%;
+	float:left;
+}
+footer{
+	width:90%;
+	height:250px;
+	padding-left:20px;
+	padding-top:10px;
+	padding-bottom:0px;
+	border-top:1px solid #ccc;
+}
+
+h1{
+	font-size: 20px;
+}
+.first_row{
+	display: grid;
+	grid-template-columns: 10% 30%;
+}
+.second_row{
+	display: grid;
+	grid-template-columns: 10% 30% 50%;
+	justify-content: space-evenly;
+}
+.game_image{
+	width:100%;
+	height:100%;
+}
+.format{
+	border: 1px solid black;
+	padding: 15px;
+}
+.format__form{
+	display:flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 100%;
+}
+.format__form__id, .format__form__password{
+	font-size:15px;
+}
+.info{
+	display:flex;
+	justify-content: center;
+	border: 1px solid black;
+	padding:10px;
+}
+
+.tb{
+  height:28px; width:230px; border:1px solid #27a465; color:#27a465; font-weight:bold; border-left:5px solid #f7f7f7; opacity:0.9;
+}
+
+.btn{
+  width:80px; height:32px; outline:none;  font-weight:bold; border:0px solid #27a465; text-shadow: 0px 0.5px 0.5px #fff;	
+  border-radius: 2px; font-weight: 600; color: #27a465; letter-spacing: 1px; font-size:14px; -webkit-transition: 1s; -moz-transition: 1s; transition: 1s;
+ }
+
+.btn:hover{
+  background-color:#27a465; outline:none;  border-radius: 2px; color:#f1f1f1; border:1px solid #f1f1f1;
+}
+

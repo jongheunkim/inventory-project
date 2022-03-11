@@ -1,0 +1,21 @@
+.table_aside{
+	position:fixed;
+	margin-left:20px;
+	border-spacing:10px;
+	width:150px;
+}
+.th_login_aside{
+	border:1px solid #ccc;
+	border-radius:10px;
+	width:150px;
+	height:80px;
+	font-size:25px;
+	box-shadow:5px 5px 5px gray;
+}
+.th_aside{
+	border:1px solid #ccc;
+	border-radius:10px;
+	width:10%;
+	height:40px;
+	box-shadow:5px 5px 5px gray;
+}

@@ -1,0 +1,43 @@
+section{
+	width:100%;
+	height:auto;
+	overflow:hidden;
+	display: flex;
+	margin-bottom:70px;
+}
+
+form{
+	padding:20px;
+}
+
+.table {
+	width:1000opx;
+	height:500px;
+	border-top:1px solid black;
+}
+
+.td1 {
+	border-bottom:1px solid black;
+	border-right:1px solid black;
+	text-align:center;
+	width:100px;
+}
+
+.td2 {
+	border-bottom:1px solid black;
+}
+
+.btn {
+	display:flex;
+	text-align:center;
+	justify-content: space-evenly;
+	width: 250px;
+	height: 30px;
+	margin-top:20px;
+	margin-bottom:70px;
+	margin-left:320px;
+}
+.button {
+	border: 1px solid black;
+	border-radius: 15%;
+}
